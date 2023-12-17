@@ -14,7 +14,6 @@ public class Zadanie1 {
         } else {
             words = new String[]{input};
         }
-
         for (String word : words) {
             Matcher m = Pattern.compile("[\\p{Lu}]{2,6}").matcher(word);
             while (m.find()) {
